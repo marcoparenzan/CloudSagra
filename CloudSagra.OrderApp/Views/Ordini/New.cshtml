@@ -1,0 +1,85 @@
+﻿
+@{
+    ViewData["Title"] = "New";
+}
+
+<h2>New</h2>
+
+<form method="post">
+    Tavolo
+    <input type="number" name="NumeroTavolo" />
+
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    Pennette
+                    <input type="hidden" name="Righe[0].Codice" value="Pennette" />
+                </td>
+                <td>
+                    <input type="number" name="Righe[0].Quantita" />
+                    <input type="hidden" name="Righe[0].Categoria" value="Primi" />
+                    <input type="hidden" name="Righe[0].Prezzo" value="4" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Gnocchi
+                    <input type="hidden" name="Righe[1].Codice" value="Gnocchi" />
+                </td>
+                <td>
+                    <input type="number" name="Righe[1].Quantita" />
+                    <input type="hidden" name="Righe[1].Categoria" value="Primi" />
+                    <input type="hidden" name="Righe[1].Prezzo" value="5" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Costa
+                    <input type="hidden" name="Righe[2].Codice" value="Costa" />
+                </td>
+                <td>
+                    <input type="number" name="Righe[2].Quantita" />
+                    <input type="hidden" name="Righe[2].Categoria" value="Secondi" />
+                    <input type="hidden" name="Righe[2].Prezzo" value="6" />
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Grigliata
+                    <input type="hidden" name="Righe[3].Codice" value="Grigliata" />
+
+                </td>
+                <td>
+                    <input type="number" name="Righe[3].Quantita" />
+                    <input type="hidden" name="Righe[3].Categoria" value="Secondi" />
+                    <input type="hidden" name="Righe[3].Prezzo" value="9" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Birra
+                    <input type="hidden" name="Righe[4].Codice" value="Birra" />
+                </td>
+                <td>
+                    <input type="number" name="Righe[4].Quantita" />
+                    <input type="hidden" name="Righe[4].Categoria" value="Bevande" />
+                    <input type="hidden" name="Righe[4].Prezzo" value="3" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Coca cola
+                    <input type="hidden" name="Righe[5].Codice" value="Coca" />
+                </td>
+                <td>
+                    <input type="number" name="Righe[5].Quantita" />
+                    <input type="hidden" name="Righe[5].Categoria" value="Bevande" />
+                    <input type="hidden" name="Righe[5].Prezzo" value="2" />
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <input type="submit" />
+</form>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudSagra.OrderApp", "CloudSagra.OrderApp\CloudSagra.OrderApp.csproj", "{615D224C-41DC-4C13-A93C-24A0D34F8F0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StampaComande", "StampaComande\StampaComande.csproj", "{E495006A-5A07-45F2-A395-5F3D0FFF95FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{615D224C-41DC-4C13-A93C-24A0D34F8F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{615D224C-41DC-4C13-A93C-24A0D34F8F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{615D224C-41DC-4C13-A93C-24A0D34F8F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{615D224C-41DC-4C13-A93C-24A0D34F8F0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E495006A-5A07-45F2-A395-5F3D0FFF95FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E495006A-5A07-45F2-A395-5F3D0FFF95FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E495006A-5A07-45F2-A395-5F3D0FFF95FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E495006A-5A07-45F2-A395-5F3D0FFF95FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86BA0AAE-F4CD-4CA4-96D4-57C1B2F967A8}
+	EndGlobalSection
+EndGlobal
